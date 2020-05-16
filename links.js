@@ -1,4 +1,4 @@
 // ссылка openserver
-"https://ospanel.io"
+"https://ospanel.io";
 // ссылка на firebase
-"https://firebase.google.com/?hl=ru"
+"https://firebase.google.com/?hl=ru";
