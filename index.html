@@ -2,16 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./libs/bootstrap.min.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Quiz</title>
 </head>
 
 <body>
-
     <header>
         <div class="container">
             <div class="row">
@@ -30,7 +29,6 @@
 
     <section class="main">
         <div class="container">
-
             <div class="row">
                 <div class="col">
                     <div class="d-flex justify-content-center p-1 p-sm-2 p-md-3">
@@ -60,26 +58,24 @@
                 <div class="col">
                     <div class="d-flex justify-content-center p-1 p-sm-2 p-md-3">
                         <button type="button" class="btn btn-outline-danger" id="btnOpenModal">
-                            <span class="btnText h1">Пройди тест и получи результат</span>
-                        </button>
+                <span class="btnText h1">Пройди тест и получи результат</span>
+              </button>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
     <div class="modal" tabindex="-1" role="dialog" id="modalBlock">
-        <div class="modal-dialog  modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-
                 <div class="modal-header">
                     <h5 class="modal-title">Ответь на вопрос:</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModal">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+              <span aria-hidden="true">&times;</span>
+            </button>
                 </div>
-                <div class="modal-body  d-flex flex-column align-items-center" id="modalBody">
+                <div class="modal-body d-flex flex-column align-items-center" id="modalBody">
                     <h5 class="question p-1 p-sm-2 p-md-3 text-center" id="question"></h5>
                     <div class="answers w-100 p-1 p-sm-2 p-md-3" id="answers">
                         <form action="#" id="formAnswers" class="formAnswers d-flex flex-wrap justify-content-around">
@@ -88,6 +84,7 @@
                                 <label for="answerItem1" class="d-flex flex-column justify-content-between">
                                     <img class="answerImg" src="./image/burger.png" alt="burger">
                                     <span>Стандарт</span>
+                    
                                 </label>
                             </div>
                             <div class="answers-item d-flex justify-content-center">
@@ -101,9 +98,15 @@
                     </div>
                 </div>
                 <div class="modal-footer" id="modalFooter">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="prev">Prev</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="next">Next</button>
-                    <button type="button" class="btn btn-primary sendBtn d-none" id="send">Send</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="prev">
+              Prev
+            </button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="next">
+              Next
+            </button>
+                    <button type="button" class="btn btn-primary sendBtn d-none" id="send">
+              Send
+            </button>
                 </div>
             </div>
         </div>
