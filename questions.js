@@ -1,8 +1,6 @@
-const questions = [
-    {
+const questions = [{
         question: "Какого цвета бургер?",
-        answers: [
-            {
+        answers: [{
                 title: 'Стандарт',
                 url: './image/burger.png'
             },
@@ -15,8 +13,7 @@ const questions = [
     },
     {
         question: "Из какого мяса котлета?",
-        answers: [
-            {
+        answers: [{
                 title: 'Курица',
                 url: './image/chickenMeat.png'
             },
@@ -33,8 +30,7 @@ const questions = [
     },
     {
         question: "Дополнительные ингредиенты?",
-        answers: [
-            {
+        answers: [{
                 title: 'Помидор',
                 url: './image/tomato.png'
             },
@@ -55,8 +51,7 @@ const questions = [
     },
     {
         question: "Добавить соус?",
-        answers: [
-            {
+        answers: [{
                 title: 'Чесночный',
                 url: './image/sauce1.png'
             },
